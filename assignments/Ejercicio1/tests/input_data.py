@@ -4,20 +4,33 @@
 input_values = [
     # Test case 1
     (
-    ["280"],
-    ["Cantidad de KW: ","La factura de este mes es por 650"],
-    ["Revisa los ejemplos y la tabla"]
+    ["M", "5"],
+    ["Gama (A/M): ","Cantidad: ","Total a pagar $40000" ],
+    ["Revisa los ejemplos y la tabla para saber si estás cubriendo todos los casos"]
     ),
     # Test case 2
     (
-    ["80"],
-    ["Cantidad de KW: ","La factura de este mes es por 0"],
-    ["Revisa los ejemplos y la tabla"]
+    ["M", "2"],
+    ["Gama (A/M): ","Cantidad: ","Total a pagar $19000" ],
+    ["Revisa los ejemplos y la tabla para saber si estás cubriendo todos los casos"]
     ),
+
     # Test case 3
     (
-    ["400"],
-    ["Cantidad de KW: ","La factura de este mes es por 1550"],
-    ["Revisa los ejemplos y la tabla"]
+    ["M", "-5"],
+    ["Gama (A/M): ","Cantidad: ","Error en los datos" ],
+    ["Revisa los ejemplos y la tabla para saber si estás cubriendo todos los casos"]
+    ),
+    # Test case 4
+    (
+    ["baja", "5"],
+    ["Gama (A/M): ","Cantidad: ","Error en los datos" ],
+    ["Revisa los ejemplos y la tabla para saber si estás cubriendo todos los casos"]
+    ),
+    # Test case 5
+    (
+    ["A", "1"],
+    ["Gama (A/M): ","Cantidad: ","Total a pagar $15500" ],
+    ["Revisa los ejemplos y la tabla para saber si estás cubriendo todos los casos"]
     )
 ]
